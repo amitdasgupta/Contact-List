@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#contact-list{
+
+    width: 400px;
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact-list-header{
+   color: grey;
+   font-size: 2.5rem;
+}
+
+#contact-list-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+ul#contact-list-content{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.contact-list-content-item{
+    width: 90%;
+    display: flex;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    margin: 2px 0px;
+    padding: 0 5%;
+    font-weight: bold;
+    color: white;
+    justify-content: space-between;
+    background-color: #3c87ca;
+    align-items: center;
+}
+
+.contact-list-content-item:hover{
+    background-color: purple;
+}
+
+.contact-list-content-item>div:first-child{
+    width: 92%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-list-content-item>.delete-button>a{
+   color:white;
+}
+
+.contact-list-content-item>.delete-button>a:hover{
+    color:red;
+}
+
+#contact-list-form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#contact-list-form>input{
+    width: 37%;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+
+
+#contact-list-form>button{
+    width: 20%;
+    border: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
